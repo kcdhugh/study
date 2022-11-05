@@ -82,3 +82,27 @@ const a = require("a");
 console.log(`Today's date: ${dayjs().format()}`);
 console.log(`From package a: ${a.getMessage()}`);
 ```
+
+## CREATE REACT, NEXT APP
+
+setting sub workspace
+```
+mkdir services
+
+cd services
+```
+
+createe react app in sub workspace in `services`
+```
+pnpm create react-app [project] {--typescript}
+```
+
+createe next app in sub workspace in `services`
+```
+pnpm create next-app [project] {--typescript}
+```
+
+test react app
+```
+pnpm run start
+```
