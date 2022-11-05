@@ -1,5 +1,5 @@
 {
-  "name": "study",
+  "name": "a",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "dayjs": "^1.11.6",
-    "a": "workspace:*"
-  }
+  "license": "ISC"
 }
