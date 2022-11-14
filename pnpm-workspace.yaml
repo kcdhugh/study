@@ -1,0 +1,4 @@
+packages:
+- "packages/*"
+- "services/next-sample"
+- "services/react-sample"
