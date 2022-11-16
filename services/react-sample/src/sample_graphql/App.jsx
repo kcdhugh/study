@@ -1,3 +1,4 @@
+import React from 'react';
 import { useQuery, gql, NetworkStatus } from '@apollo/client'
 
 /* START SAMPLE_1 *****************************************************************/
@@ -131,20 +132,6 @@ function DogPhoto_v3({ breed }) {
 
 /* START SAMPLE_3 *****************************************************************/
 /* END SAMPLE_3 *****************************************************************/
-
-
-function DogDisplay() {
-  const onSelected = () => {
-
-  }
-
-  return (
-    <>
-      <Dogs onDogSelected={onSelected} />
-    </>
-  )
-}
-
 
 function App() {
 

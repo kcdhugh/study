@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import SampleGraphql from './sample_graphql';
 import reportWebVitals from './reportWebVitals';
+
+// import SampleGraphql from './sample_graphql';
+import SampleRecoil from './sample_recoil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <SampleGraphql />
+    {/* <SampleGraphql /> */}
+    <SampleRecoil />
   </React.StrictMode>
 );
 

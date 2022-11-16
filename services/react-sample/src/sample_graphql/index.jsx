@@ -1,3 +1,4 @@
+import React from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
 import App from './App';
 
@@ -9,9 +10,7 @@ const client = new ApolloClient({
 function SampleGraphql() {
   return (
     <ApolloProvider client={client}>
-      <>
-        <App />
-      </>
+      <App />
     </ApolloProvider>
   );
 }
