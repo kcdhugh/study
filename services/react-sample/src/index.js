@@ -3,15 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-// import SampleGraphql from './sample_graphql';
-import SampleRecoil from './sample_recoil';
+import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <SampleGraphql /> */}
-    <SampleRecoil />
-  </React.StrictMode>
+  <App />
+
+  // <React.StrictMode>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
