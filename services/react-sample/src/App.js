@@ -8,6 +8,7 @@ import SampleContext from './pages/sample_context';
 import SampleTest from './pages/sample_test';
 import SampleReactQuery from './pages/sample_react_query';
 import SampleSuspense from './pages/sample_suspense';
+import SampleChart from './pages/sample_chart';
 
 const TEST_PAGE_LINK = [
   {
@@ -33,6 +34,10 @@ const TEST_PAGE_LINK = [
   {
     path: '/sample_suspense',
     targetElement: <SampleSuspense />
+  },
+  {
+    path: '/sample_chart',
+    targetElement: <SampleChart />
   }
 ]
 
